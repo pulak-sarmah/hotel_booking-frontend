@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navButton {
+  @apply p-2 rounded-sm cursor-pointer active:scale-95 bg-primaryLight hover:bg-hover text-textPrimary;
+}
+.nav {
+  @apply flex flex-row items-center justify-center;
+}
+.hoverEffect {
+  @apply active:scale-95 hover:bg-lightest;
+}
+.userNav {
+  @apply p-1 cursor-pointer hoverEffect text-primary;
+}
