@@ -33,7 +33,6 @@ const Register = () => {
         message: "Account created successfully",
         type: "success",
       });
-
       reset();
       navigate("/");
     },
